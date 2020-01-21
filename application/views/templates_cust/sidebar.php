@@ -17,10 +17,10 @@
               Paket Wisata
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="#">Paket Wisata Sehari Jogja</a>
-              <a class="dropdown-item" href="#">Paket Wisata 2H1M Jogja</a>
-              <a class="dropdown-item" href="#">Paket Wisata 3H2M Jogja</a>
-              <a class="dropdown-item" href="#">Paket Wisata 4H3M Jogja</a>
+              <a class="dropdown-item" href="<?= base_url('customer/paket1h') ?>">Paket Wisata Sehari Jogja</a>
+              <a class="dropdown-item" href="<?= base_url('customer/paket2h') ?>">Paket Wisata 2H1M Jogja</a>
+              <a class="dropdown-item" href="<?= base_url('customer/paket3h') ?>">Paket Wisata 3H2M Jogja</a>
+              <a class="dropdown-item" href="<?= base_url('customer/paket4h') ?>">Paket Wisata 4H3M Jogja</a>
               <a class="dropdown-item" href="#">Single Portfolio Item</a>
             </div>
           </li>
