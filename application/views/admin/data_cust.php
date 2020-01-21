@@ -1,7 +1,7 @@
 <div class="main-content">
 	<section class="section">
 		<div class="section-header">
-			<h1>Data Customer</h1>
+			<h1>Data User</h1>
 		</div>
 	</section>
 	<div class="container-fluid">
@@ -29,7 +29,7 @@
 			<thead>
 				<tr>
 					<th width="50px">#</th>
-					<th>Nama Customer</th>
+					<th>Nama User</th>
 					<th>E-mail</th>
 					<th>Telepon/HP</th>
 					<th>Alamat</th>

@@ -45,7 +45,7 @@
               </ul>
             </li>
             <li><a class="nav-link" href="<?php echo base_url('admin/driver') ?>"><i class="fas fa-money-bill-alt"></i> <span>Biaya Driver</span></a></li>
-            <li><a class="nav-link" href="<?php echo base_url('admin/data_cust') ?>"><i class="fas fa-users"></i> <span>Data Customer</span></a></li>
+            <li><a class="nav-link" href="<?php echo base_url('admin/data_cust') ?>"><i class="fas fa-users"></i> <span>Data User</span></a></li>
             <li><a class="nav-link" href="<?php echo base_url('admin/menghubungi') ?>"><i class="fas fa-phone"></i> <span>Menghubungi</span></a></li>
             <li class="nav-item dropdown">
               <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-cog"></i> <span>Kelola Halaman</span></a>

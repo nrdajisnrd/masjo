@@ -156,7 +156,7 @@
       <?php foreach ($berita as $brt) : ?>
       <div class="col-lg-3 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="<?php echo base_url().'/assets/assets_cust/img/uploads/'.$brt->foto ?>" alt=""></a>
+          <img class="card-img-top" src="<?php echo base_url().'/assets/assets_cust/img/uploads/'.$brt->foto ?>" alt="">
           <div class="card-body">
             <h4 class="card-title">
               <?php echo $brt->judul_berita ?>
