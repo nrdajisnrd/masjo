@@ -296,13 +296,13 @@
 								<div class="card">
 									<div class="card-header" id="headingOne">
 										<h2 class="mb-0">
-											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#harga"
-												aria-expanded="true" aria-controls="harga">
+											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#harga1"
+												aria-expanded="true" aria-controls="harga1">
 												HARGA
 											</button>
 										</h2>
 									</div>
-									<div id="harga" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									<div id="harga1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 										<div class="card-body">
 											<div class="row my-3">
 												<div class="col-md text-center">
@@ -359,12 +359,12 @@
 									<div class="card-header" id="headingTwo">
 										<h2 class="mb-0">
 											<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-												data-target="#fasilitas" aria-expanded="false" aria-controls="fasilitas">
+												data-target="#fasilitas1" aria-expanded="false" aria-controls="fasilitas1">
 												FASILITAS TOUR
 											</button>
 										</h2>
 									</div>
-									<div id="fasilitas" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+									<div id="fasilitas1" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 										<div class="card-body">
 											<table class="table table-sm">
 												<thead>
@@ -435,13 +435,13 @@
 								<div class="card">
 									<div class="card-header" id="headingOne">
 										<h2 class="mb-0">
-											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#harga"
-												aria-expanded="true" aria-controls="harga">
+											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#harga2"
+												aria-expanded="true" aria-controls="harga2">
 												HARGA
 											</button>
 										</h2>
 									</div>
-									<div id="harga" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									<div id="harga2" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 										<div class="card-body">
 											<div class="row my-3">
 												<div class="col-md text-center">
@@ -498,12 +498,12 @@
 									<div class="card-header" id="headingTwo">
 										<h2 class="mb-0">
 											<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-												data-target="#fasilitas" aria-expanded="false" aria-controls="fasilitas">
+												data-target="#fasilitas2" aria-expanded="false" aria-controls="fasilitas2">
 												FASILITAS TOUR
 											</button>
 										</h2>
 									</div>
-									<div id="fasilitas" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+									<div id="fasilitas2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 										<div class="card-body">
 											<table class="table table-sm">
 												<thead>
