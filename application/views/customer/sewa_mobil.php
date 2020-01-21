@@ -12,50 +12,45 @@
 		<li class="breadcrumb-item">
 			<a href="<?php echo base_url('customer/rental_mobil') ?>">Rental Mobil</a>
 		</li>
-        <li class="breadcrumb-item">
+		<li class="breadcrumb-item">
 			<a href="<?php echo base_url().'customer/rental_mobil/detail_mobil/'.$dt->id_mobil ?>">Detail Mobil</a>
 		</li>
 		<li class="breadcrumb-item active"><?php echo $dt->nama_mobil ?></li>
 	</ol>
-    <?php endforeach; ?>
+	<?php endforeach; ?>
 
 	<div class="row">
 		<div class="col-md-8">
 			<div class="card">
 				<div class="card-body">
-                    <?php foreach ($detail as $dt) : ?>
+					<?php foreach ($detail as $dt) : ?>
 					<div class="row">
 						<div class="col-sm-12">
 							<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-										<img src="<?php echo base_url().'assets/uploads/'.$dt->image1 ?>"
-											class="d-block w-100" alt="...">
+										<img src="<?php echo base_url().'assets/uploads/'.$dt->image1 ?>" class="d-block w-100" alt="...">
 									</div>
 									<div class="carousel-item">
-										<img src="<?php echo base_url().'assets/uploads/'.$dt->image2 ?>"
-											class="d-block w-100" alt="...">
+										<img src="<?php echo base_url().'assets/uploads/'.$dt->image2 ?>" class="d-block w-100" alt="...">
 									</div>
 									<div class="carousel-item">
-										<img src="<?php echo base_url().'assets/uploads/'.$dt->image3 ?>"
-											class="d-block w-100" alt="...">
+										<img src="<?php echo base_url().'assets/uploads/'.$dt->image3 ?>" class="d-block w-100" alt="...">
 									</div>
 								</div>
-								<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-									data-slide="prev">
+								<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 									<span class="sr-only">Previous</span>
 								</a>
-								<a class="carousel-control-next" href="#carouselExampleControls" role="button"
-									data-slide="next">
+								<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
 									<span class="carousel-control-next-icon" aria-hidden="true"></span>
 									<span class="sr-only">Next</span>
 								</a>
 							</div>
 						</div>
-                    </div>
+					</div>
 
-                    <div class="row">
+					<div class="row">
 						<div class="col-sm-12">
 							<table class="table table-bordered">
 								<thead>
@@ -91,7 +86,7 @@
 							</table>
 						</div>
 					</div>
-                    <?php endforeach; ?>
+					<?php endforeach; ?>
 				</div>
 			</div>
 		</div>
@@ -99,37 +94,37 @@
 			<div class="card">
 				<div class="card-header"><strong>Cek Ketersediaan</strong></div>
 				<div class="card-body">
-                <?php echo $this->session->flashdata('pesan') ?>
+					<?php echo $this->session->flashdata('pesan') ?>
 					<form action="<?php echo base_url('customer/rental_mobil/cek_mobil') ?>" method="post">
-                        <?php foreach ($detail as $dt) : ?>
-                        <input type="hidden" class="form-control" name="id_mobil" value="<?php echo $dt->id_mobil ?>">
-                        <div class="form-group">
-                            <label>Tanggal Mulai</label>
-                            <input type="date" class="form-control" name="fromdate">
-                        </div>
-                        <div class="form-group">
-                            <label>Tanggal Selesai</label>
-                            <input type="date" class="form-control" name="todate">
-                        </div>
-                        <div class="form-group">
-                            <label>Metode Pickup</label>
-                            <select name="pickup" class="form-control">
-                            <option value="Ambil Sendiri">Ambil Sendiri</option>
-                            <option value="Antar Sesuai Alamat">Antar Sesuai Alamat</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Opsi Driver</label>
-                            <select name="driver" class="form-control">
-                            <option value="Dengan Driver">Dengan Driver</option>
-                            <option value="Lepas Kunci">Lepas Kunci</option>
-                            </select>
-                        </div>
-                        <?php endforeach; ?>
-                        <div class="form-group">
-                            <input type="submit" class="btn btn-primary btn-block" name="cek_mobil" value="Cek Ketersediaan">
-                        </div>
-                    </form>
+						<?php foreach ($detail as $dt) : ?>
+						<input type="hidden" class="form-control" name="id_mobil" value="<?php echo $dt->id_mobil ?>">
+						<div class="form-group">
+							<label>Tanggal Mulai</label>
+							<input type="date" class="form-control" name="fromdate">
+						</div>
+						<div class="form-group">
+							<label>Tanggal Selesai</label>
+							<input type="date" class="form-control" name="todate">
+						</div>
+						<div class="form-group">
+							<label>Metode Pickup</label>
+							<select name="pickup" class="form-control">
+								<option value="Ambil Sendiri">Ambil Sendiri</option>
+								<option value="Antar Sesuai Alamat">Antar Sesuai Alamat</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label>Opsi Driver</label>
+							<select name="driver" class="form-control">
+								<option value="Dengan Driver">Dengan Driver</option>
+								<option value="Lepas Kunci">Lepas Kunci</option>
+							</select>
+						</div>
+						<?php endforeach; ?>
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary btn-block" name="cek_mobil" value="Cek Ketersediaan">
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
