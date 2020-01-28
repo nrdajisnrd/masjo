@@ -2,6 +2,7 @@
 
     class Auth extends CI_Controller{
 
+        
         public function login()
         {
             $this->form_validation->set_rules('email', 'Email', 'required');
