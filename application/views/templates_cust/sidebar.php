@@ -41,6 +41,7 @@
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
               <a class="dropdown-item" href="<?php echo base_url('customer/profil') ?>">Pengaturan Profil</a>
               <a class="dropdown-item" href="<?php echo base_url('customer/ubahpass') ?>">Ubah Password</a>
+              <a class="dropdown-item" href="<?php echo base_url('customer/riwayat') ?>">Riwayat Sewa</a>
               <a class="dropdown-item" href="<?php echo base_url().'auth/logout' ?>">Logout</a>
             </div>
           </li>
